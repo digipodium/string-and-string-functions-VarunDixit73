@@ -2,13 +2,19 @@
 intro = input('Enter your name and tell us something about yourself:\n')
 print(intro)
 
+
+
 #2. Take a string input and print it's length.
 intro_x= input('Enter a string of your choice:\n')
 print('The size of the string =',len(intro_x))
 
+
+
 #3. Print the last word of the string `Python is great` using slices.
 x='Python is great'
 print(x[-5:])
+
+
 
 #4. Print the each word in different line of string `python is everywhere`.
 x= 'python is everywhere'
@@ -18,23 +24,33 @@ for i in x:
     else:
         print(i)
 
+        
+        
 #5. Print the string `Hello World!` in reverse.
 str='Hello World!'
 print('String in Reverse:\n',str[::-1])
+
+
 
 #6. Convert the string `How are you?` in uppercase.
 str='How are you?'
 print('String in Upper Case:\n',str.upper())
 
+
+
 #7. Convert the string `How Is It Going?` in lowercase.
 lcase = 'How Is It Going?'
 print('String in Lower Case:\n',lcase.casefold())
+
+
 
 #8. Join the following list by spaces(` `) and print the result.
 # words = ['Python', 'is', 'easy', 'to', 'learn']
 words = ['Python', 'is', 'easy', 'to', 'learn']
 content = " ".join(words)
 print(content)
+
+
 
 #9. Print a multiline string using a single `print`
 mul_str= '''
@@ -49,8 +65,12 @@ It depicts Christopher Columbus landing on San Salvador Island on October 12, 14
 '''
 print('Multiline String using single string is as follows:\n',mul_str)
 
+
+
 #10. Print this string `to move to newline '\n' is used.` (results should look exactly like the provided string)
 #print(f'to move to newline \n is used.')
+
+
 
 #11. Print a variable with some text using a single print function, output should look like following.
 #    ```
@@ -58,6 +78,7 @@ print('Multiline String using single string is as follows:\n',mul_str)
 #    ```
 var = 'the variable is 15'
 print(var)
+
 
 #12. concatenate the following strings and print the result
 #    ```py
@@ -71,8 +92,12 @@ s3 = 'great.'
 s_sum = s1+s2+s3
 print(s_sum)
 
+
+
 #13. Print `#` 20 times without using a loop
 print('#'*20)
+
+
 
 #14. Print numbers from 1 to 9, each on a seperate line, followed by a dot, output should look like the following-
 #    ```
@@ -87,9 +112,13 @@ while i<=20:
     print('')
     i+=1
 
+    
+        
 #15. Ask user to input a sentence and print each word on a different line.
 u_input= input("Enter a senterce:\n")
 inp_len= len(u_input)
+
+
 
 #16. Ask user to input a string and check if the string ends with '?'
 u_input=input('Enter a string:\n')
@@ -98,6 +127,8 @@ if u_input=='?':
 else:
     print('False')
 
+    
+    
 #17. Ask user to input a string and print how many times `e` appeared in the string
 u_input=input('Enter a string to search:\n')
 x= u_input.casefold()
@@ -107,10 +138,14 @@ for i in x:
         check+=1
 print(f'e appeared {check} times in the given string.')
 
+
+
 #18. Check if the user input is a number.
 check_x = input('Enter a Number->>>')
 ans=check_x.isnumeric()
 print(ans)
+
+
 
 #19. Remove the extra spaces in beginning and in the end of the following string-
 #    ```py
@@ -120,6 +155,8 @@ text = '   this is not a good string           '
 print(text)
 corrected = text.strip()
 print('String after correction :\n',corrected)
+
+
 
 #20. Ask user to input string, print `found` if any of the character is upper case.
 value= input("Enter something: ")
@@ -134,6 +171,7 @@ if check>0:
     print('found')
 
 
+    
 #21. Extract names from the following string and store them in a list.
 #    ```py
 #    names = 'Joe, David, Mark, Tom, Chris, Robert'
